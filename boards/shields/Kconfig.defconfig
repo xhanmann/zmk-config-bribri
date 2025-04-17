@@ -1,3 +1,4 @@
+# Configuration for Brizy Left Shield
 if SHIELD_BRIZY_LEFT
 
 config ZMK_KEYBOARD_NAME
@@ -6,9 +7,16 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_SPLIT
+    default y
+
 endif
 
-if SHIELD_BRIZY_LEFT || SHIELD_BRIZY_RIGHT
+# Configuration for Brizy Right Shield
+if SHIELD_BRIZY_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Brizy"
 
 config ZMK_SPLIT
     default y
