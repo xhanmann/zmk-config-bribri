@@ -1,4 +1,6 @@
-config SHIELD_BRIZY
-....def_bool $(shields_list_contains, brizy)
+config SHIELD_BRIZY_LEFT
+    def_bool $(shields_list_contains,brizy_left)
 
-endif
+config SHIELD_BRIZY_RIGHT
+    def_bool $(shields_list_contains,brizy_right)
+    
