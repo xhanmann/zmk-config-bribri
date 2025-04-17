@@ -1,4 +1,4 @@
-config SHIELD_brizy
+config SHIELD_BRIZY
 ....def_bool $(shields_list_contains, brizy)
 
 endif
